@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   const [tokens, setTokens] = useState([]);
-  const QueryURL = "https://gateway.thegraph.com/api/333fb5b792e863874ea6d06f23a46360/subgraphs/id/ELUcwgpm14LKPLrBRuVvPvNKHQ9HvwmtKgKSH6123cr7";
+  const QueryURL = "https://gateway.thegraph.com/api/[api-key]]/subgraphs/id/ELUcwgpm14LKPLrBRuVvPvNKHQ9HvwmtKgKSH6123cr7";
   const client = createClient({
     url: QueryURL
   });
